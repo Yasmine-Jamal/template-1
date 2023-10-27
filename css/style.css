@@ -32,12 +32,27 @@
 }
 .nav .container ul a {
     color: #fff;
+    text-decoration: none;
     margin: 0 20px;
     text-transform: capitalize;
     text-align: center;
     transition: 1.5s;
     position: relative;
     font-size: 1.2rem;
+}
+.blog{
+    position: relative;
+}
+.blog-content{
+    position: absolute;
+    background-color: #7d5833;
+    padding: 7px 50px ;
+    color: #fff;
+    top: 55px;
+    visibility: hidden;
+}
+.liBolg:hover .blog-content{
+    visibility: visible;
 }
 .nav .container ul a::after {
     content: "";
